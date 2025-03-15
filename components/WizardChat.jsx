@@ -7,7 +7,6 @@ export default function WizardChat({ name }) {
   const [answers, setAnswers] = useState([]);
   const [dynamicQuestions, setDynamicQuestions] = useState([]);
   const [recommendation, setRecommendation] = useState(null);
-  
 
   async function handleAnswer(option) {
     const newAnswers = [...answers, option];

@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "question": "Qual sua idade?",
+      "options": ["Menos de 18", "18-25", "26-35", "Mais de 35"]
+    },
+    {
+      "id": 2,
+      "question": "Qual seu objetivo?",
+      "options": ["Carreira", "Hobby", "Empreender"]
+    },
+    {
+      "id": 3,
+      "question": "Qual idioma você deseja aprender??",
+      "options": ["Inglês", "Espanhol", "Francês", "Alemão", "Italiano"]
+    },
+    {
+      "id": 4,
+      "question": "Em quanto tempo você espera estar fluente?",
+      "options":["3 meses", "6 meses", "1 ano", "Mais de 1 ano"]
+    }
+
+  ]
+  

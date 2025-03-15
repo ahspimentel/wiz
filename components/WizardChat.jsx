@@ -1,14 +1,12 @@
 "use client";
 import { useState } from "react";
 import questions from "@/lib/questions.json";
-import WizardChat from "@/components/WizardChat";
 
 export default function WizardChat({ name }) {
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState([]);
   const [dynamicQuestions, setDynamicQuestions] = useState([]);
   const [recommendation, setRecommendation] = useState(null);
-  const [loading, setLoading] = useState(false);
   
 
   async function handleAnswer(option) {
